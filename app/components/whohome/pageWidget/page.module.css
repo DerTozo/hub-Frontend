@@ -1,0 +1,47 @@
+.homeWidget{
+    font-size: 20px;
+    background-color: var(--background-withe);
+    filter: var(--drop-shadow);
+    display: flex;
+    margin: 2.5rem;
+    width: 27.5rem;
+    height: 10rem;
+    border-radius: 2.5rem;
+}
+.homeInformation{
+    flex: 1;
+    max-width: 18rem;
+    margin: 2rem;
+    color: var(--secondary-grey);
+}
+.nameBar{
+    margin-bottom: 0.5rem;
+    width: 19rem;
+    height: 1.5rem;
+    background-image: var(--orange-gradient);
+    border-radius: 0.6rem;
+}
+.name{
+    margin-left: 1rem;
+    color: var(--primary-grey);
+}
+.line{
+    border-bottom: 0.15rem solid var(--tertiary-grey);
+    margin-bottom: 1rem;
+    width: 19rem;
+}
+.status{
+    float: left;
+}
+.statusData{
+    text-align: end;
+}
+.lastLogin{
+    margin-top: 1rem;
+}
+.icon{
+    margin: 1rem 0;
+    filter: var(--drop-shadow);
+}
+
+
