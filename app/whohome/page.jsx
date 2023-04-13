@@ -10,7 +10,14 @@ export default function Home() {
                     <div className={styles.topicText}>home?</div>
                 </div>
             </div>
-            {whoHomePageWidget()}
+            <div className={styles.content}>
+                {whoHomePageWidget()}
+                {whoHomePageWidget()}
+                {whoHomePageWidget()}
+                {whoHomePageWidget()}
+                {whoHomePageWidget()}
+                {whoHomePageWidget()}
+            </div>
         </main>
     )
 }

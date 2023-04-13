@@ -5,7 +5,7 @@ export default async function eventPageWidget() {
     const res = await data.json()
 
     return (
-        <main>
+        <main className={styles.main}>
             {res.map(item => (
                 <div key={item.eventId}>
                     <div className={styles.eventWidget}>
@@ -16,7 +16,7 @@ export default async function eventPageWidget() {
                             <div className={styles.line}></div>
                             <div>
                                 <div className={styles.keyData}>Faellig in:</div>
-                                <div className={styles.valueData}>{item.creationDate}</div>
+                                <div className={styles.valueData}>{item.creationDate} d</div>
                                 <div className={styles.keyData}>Bearbeiter:</div>
                                 <div className={styles.valueData}>{item.processor}</div>
                             </div>
