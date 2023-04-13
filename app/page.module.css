@@ -15,7 +15,6 @@
     flex: 1;
     background-color: var(--background-grey);
     border-radius: 3rem 0 0 0;
-    flex-direction: column;
 }
 
 /*------------------NAV-BAR------------------*/

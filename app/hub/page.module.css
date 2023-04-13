@@ -1,4 +1,4 @@
-.content{
+.main{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
     grid-gap: 10px;
