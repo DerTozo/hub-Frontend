@@ -1,5 +1,6 @@
 import eventHubWidget from "app/components/event/hubWidget/page";
 import whoHomeHubWidget from "app/components/whohome/hubWidget/page";
+import dummyHubWidget from "app/components/dummy/hubWidget/page";
 import styles from "./page.module.css";
 
 export default function hubWidgets() {
@@ -7,10 +8,10 @@ export default function hubWidgets() {
         <main className={styles.main}>
             {eventHubWidget()}
             {whoHomeHubWidget()}
-            {whoHomeHubWidget()}
-            {whoHomeHubWidget()}
-            {whoHomeHubWidget()}
-            {whoHomeHubWidget()}
+            {dummyHubWidget()}
+            {dummyHubWidget()}
+            {dummyHubWidget()}
+            {dummyHubWidget()}
         </main>
     )
 }

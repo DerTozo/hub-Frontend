@@ -1,0 +1,77 @@
+.hubWidgetBorder {
+    margin: 4rem 2.5rem 0 7rem;
+    height: 20rem;
+    max-width: 18.5rem;
+    position: relative;
+}
+.link {
+    font-weight: normal;
+    text-decoration: none;
+}
+.appLogoIcon {
+    position: absolute;
+    filter: var(--drop-shadow);
+    margin-left: 3rem;
+    z-index: 2;
+    top: -2.5rem;
+}
+.hubWidget {
+    font-size: 20px;
+    background-color: var(--background-withe);
+    filter: var(--drop-shadow);
+    width: 18.5rem;
+    height: 20rem;
+    border-radius: 2.5rem;
+}
+.hubInformation {
+    max-width: 16rem;
+    margin: 0 2rem 0 2rem;
+    padding-top: 3rem;
+    color: var(--secondary-grey);
+}
+.appName {
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--primary-grey);
+}
+.line {
+    border-bottom: 0.15rem solid var(--tertiary-grey);
+    margin-bottom: 1rem;
+}
+.keyData {
+    float: left;
+}
+.valueData {
+    text-align: end;
+}
+.orangeColoredBar {
+    position: absolute;
+    bottom: 2rem;
+    height: 1.5rem;
+    width: 14.5rem;
+
+    background-image: var(--orange-gradient);
+    border-radius: 0.6rem;
+}
+.blueColoredBar {
+    position: absolute;
+    bottom: 2rem;
+    height: 1.5rem;
+    width: 14.5rem;
+
+    background-image: var(--blue-gradient);
+    border-radius: 0.6rem;
+}
+.greenColoredBar {
+    position: absolute;
+    bottom: 2rem;
+    height: 1.5rem;
+    width: 14.5rem;
+
+    background-image: var(--green-gradient);
+    border-radius: 0.6rem;
+}
+.barValue {
+    text-align: center;
+    margin-left: 0.5rem;
+}
