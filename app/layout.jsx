@@ -23,18 +23,26 @@ export default function RootLayout({children}) {
           </div>
           <div className={styles.content}>
             <div className={styles.sidebar}>
-              <div className={styles.profile}>
-                <img src={"./profile-icon.svg"} alt={"profile-icon"}/>
-              </div>
-              <div className={styles.notification}>
-                <img src={"./notification-icon.svg"} alt={"notification-icon"}/>
-              </div>
-              <div className={styles.wg}>
-                <img src={"./wg-icon.svg"} alt={"wg-icon"}/>
-              </div>
-              <div className={styles.settings}>
-                <img src={"./settings-icon.svg"} alt={"settings-icon"}/>
-              </div>
+              <a href={"http://localhost:3000/error"}>
+                <div className={styles.profile}>
+                  <img src={"./profile-icon.svg"} alt={"profile-icon"}/>
+                </div>
+              </a>
+              <a href={"http://localhost:3000/error"}>
+                <div className={styles.notification}>
+                  <img src={"./notification-icon.svg"} alt={"notification-icon"}/>
+                </div>
+              </a>
+              <a href={"http://localhost:3000/error"}>
+                <div className={styles.wg}>
+                  <img src={"./wg-icon.svg"} alt={"wg-icon"}/>
+                </div>
+              </a>
+              <a href={"http://localhost:3000/error"}>
+                <div className={styles.settings}>
+                  <img src={"./settings-icon.svg"} alt={"settings-icon"}/>
+                </div>
+              </a>
             </div>
             <div className={styles.main}>
               {children}
