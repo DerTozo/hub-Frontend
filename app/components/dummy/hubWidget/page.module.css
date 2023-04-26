@@ -46,8 +46,8 @@
 }
 .orangeColoredBar {
     position: absolute;
-    bottom: 2rem;
-    height: 1.5rem;
+    bottom: 1.5rem;
+    height: 2.5rem;
     width: 14.5rem;
 
     background-image: var(--orange-gradient);
@@ -55,8 +55,8 @@
 }
 .blueColoredBar {
     position: absolute;
-    bottom: 2rem;
-    height: 1.5rem;
+    bottom: 1.5rem;
+    height: 2.5rem;
     width: 14.5rem;
 
     background-image: var(--blue-gradient);
@@ -64,8 +64,8 @@
 }
 .greenColoredBar {
     position: absolute;
-    bottom: 2rem;
-    height: 1.5rem;
+    bottom: 1.5rem;
+    height: 2.5rem;
     width: 14.5rem;
 
     background-image: var(--green-gradient);
@@ -73,5 +73,5 @@
 }
 .barValue {
     text-align: center;
-    margin-left: 0.5rem;
+    margin: 0.5rem;
 }

@@ -37,7 +37,7 @@
     color: var(--primary-grey);
     text-shadow: var(--text-shadow);
     text-align: end;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     padding-top: 1rem;
 }
 

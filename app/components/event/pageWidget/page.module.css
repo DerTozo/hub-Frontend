@@ -22,12 +22,13 @@
 .nameBar{
     margin-bottom: 0.5rem;
     width: 20rem;
-    height: 1.5rem;
+    height: 2rem;
     background-image: var(--blue-gradient);
     border-radius: 0.6rem;
 }
 .eventName{
     margin-left: 1rem;
+    padding-top: 0.2rem;
     color: var(--primary-grey);
 }
 .line{
